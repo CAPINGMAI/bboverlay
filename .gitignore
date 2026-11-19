@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产物（会自动生成）
+work/
+cache/
+输出/
+output/
+gui_config.json
+python-path.txt
+配置日志.txt
+安装记录.json
+
+# 第三方二进制：不随仓库分发（见 tools/README.md）
+tools/*.exe
+*.exe
+!tools/
+tools/*.dll
+tools/*.zip
+tools/*.7z
+
+# 用户素材 / 输出
+*.BBL
+*.bbl
+*.BFL
+*.bfl
+*.MOV
+*.mov
+*.mp4
+*.MP4
+*.csv
+
+# 系统
+Thumbs.db
+.DS_Store
+# 编译产物（用 启动器源码\编译.ps1 自己生成）
+启动黑匣子叠加工具.exe
